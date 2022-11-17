@@ -1,0 +1,23 @@
+/* .comp{
+    display: flex;
+    flex-direction: column;
+} */
+.img{
+    width: 340px;
+    height: 200px;
+}
+.btn{
+    font-weight: bold;
+}
+#anchor{
+    width: 300px;
+}
+
+@media only screen and (max-width:500px) {
+    .img{
+        width: auto;
+    }
+    /* .btn{
+        width: auto;
+    } */
+}
