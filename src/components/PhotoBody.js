@@ -18,7 +18,7 @@ const Body = (props) => {
   }, [location]);
 
   if (data === null) {
-    return <div>Loading...</div>;
+    return <div>Try with some other keyword</div>;
   } else {
     return (
       <>

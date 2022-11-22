@@ -69,7 +69,7 @@ function NavBar(props) {
               <input
                 className="form-control me-2"
                 type="search"
-                placeholder="search to get an image"
+                placeholder="Search to get Images"
                 ref={ref}
                 aria-label="Search"
               />

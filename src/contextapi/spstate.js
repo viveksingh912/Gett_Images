@@ -28,7 +28,10 @@ function SpState(props) {
         })
         .then((result) => {
           dispatch(setProgress(70));
+          if(result.response.results.length)
           setPhotosResponse(result.response.results);
+          else
+          setPhotosResponse(null);
           dispatch(setLoader(false));
           dispatch(setProgress(100));
         })
