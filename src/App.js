@@ -19,7 +19,7 @@ function App() {
         onLoaderFinished={() => dispatch(setProgress(0))} 
       />
       <Routes>
-      <Route exact path="/" element={<Body key={'marvel'} val='marvel'/>} />
+      <Route exact path="/unsplash" element={<Body key={'marvel'} val='marvel'/>} />
       <Route path="/technology" element={<Body key={'technology'} val={'technology'}/>} />
       <Route path="/sports" element={<Body key={'sports'} val={'sports'}/>} />
       <Route path="/birds" element={<Body key={'birds'} val={'birds'}/>} />
