@@ -13,6 +13,8 @@ const Body = (props) => {
   useEffect(() => {
     if(props.val)
     changeData(props.val);
+    else
+    changeData('spiderman');
      // This helps in running the useEffect after every location or href change
     // eslint-disable-next-line
   }, [location]);
